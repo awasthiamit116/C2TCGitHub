@@ -39,6 +39,8 @@ public class Prog1 {
 		
 		Chrome obj3 = new Chrome();
 		obj3.start();
+		
+		System.out.println(Thread.currentThread().getId());
 	}
 
 }
