@@ -30,7 +30,9 @@ public class Prog6 {
 		Prog6 p6 = new Prog6();
 		Collections.reverse(obj);
 		p6.Display(obj);
-		
+		System.out.println("______________");
+		obj.sort(null);
+		p6.Display(obj);
 	}
 
 }
